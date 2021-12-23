@@ -27,7 +27,7 @@ namespace SimpleChatRoom
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "ClientApp/build";
+                configuration.RootPath = "ClientApp";
             });
             //add new web api
             services.AddSingleton<LogInfoService>();
